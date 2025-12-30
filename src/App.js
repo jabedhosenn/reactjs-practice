@@ -13,6 +13,10 @@ function App() {
       <Home />
       <About />
       <Contact />
+      <Contact name="Jabed Hosen JH" />
+      <Contact name="Jabed Hosen" />
+      <Contact name="Jabed" />
+      <Contact />
     </div>
   );
 }
