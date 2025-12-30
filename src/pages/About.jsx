@@ -30,9 +30,22 @@ class About extends Component {
     this.state = {
       name: "Jabed Hosen JH",
       age: 25,
-      profession: "Software Developer",
+    //   profession: {
+    //     title: "Software Developer",
+    //     experience: "5 years",
+    //   }
+    profession: "Software Developer",
     };
   } // constructor method
+
+  ChangeValue(){
+    this.setState({
+      profession: {
+        title: "Senior Software Developer",
+        experience: "7 years",
+      }
+    });
+  }
   
   render() {
     return (
@@ -41,7 +54,9 @@ class About extends Component {
         <p>This is the About page of our React application. About P2</p>
         <h3>Name: {this.state.name}</h3>
         <h3>Age: {this.state.age}</h3>
-        <h3>Profession: {this.state.profession}</h3>
+        <h3>Profession: {this.state.profession.title}</h3>
+        <h3>Experience: {this.state.profession.experience}</h3>
+        <button className="btn" onClick={() => this.ChangeValue()}>Change Profession</button>
       </div>
     );
   }
