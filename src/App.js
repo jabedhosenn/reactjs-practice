@@ -4,6 +4,9 @@ import About from './pages/About';
 import React from 'react';
 import Contact from './pages/Contact';
 import Fragment from './pages/Fragment';
+import Clipboard from './pages/Clipboard';
+import Focus from './pages/Focus';
+import Keyboard from './pages/Keyboard';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
         <About />
         <Contact name="Jabed Hosen JH" />
         <Fragment />
+        <Clipboard />
+        <Focus />
+        <Keyboard />
       </div>
     </React.Fragment>
   );

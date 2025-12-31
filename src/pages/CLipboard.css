@@ -1,0 +1,23 @@
+.Clipboard{
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: lightgreen;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.inp{
+    margin-top: 5px;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
