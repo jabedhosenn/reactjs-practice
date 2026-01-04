@@ -7,6 +7,8 @@ import Fragment from './pages/Fragment';
 import Clipboard from './pages/Clipboard';
 import Focus from './pages/Focus';
 import Keyboard from './pages/Keyboard';
+import Fitar from './pages/Fitar';
+import WelcomeAdmin from './pages/WelcomeAdmin';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Clipboard />
         <Focus />
         <Keyboard />
+        <Fitar />
+        <WelcomeAdmin />
       </div>
     </React.Fragment>
   );
