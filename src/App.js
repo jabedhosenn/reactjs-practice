@@ -9,6 +9,7 @@ import Focus from './pages/Focus';
 import Keyboard from './pages/Keyboard';
 import Fitar from './pages/Fitar';
 import WelcomeAdmin from './pages/WelcomeAdmin';
+import Style from './pages/Style';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <h1>Welcome to My React App</h1>
         <p>This is a simple React application.</p>
         <p>Enjoy exploring the features!</p>
-        <Home />
+        {/* <Home />
         <About />
         <Contact name="Jabed Hosen JH" />
         <Fragment />
@@ -34,7 +35,8 @@ function App() {
         <Focus />
         <Keyboard />
         <Fitar />
-        <WelcomeAdmin />
+        <WelcomeAdmin /> */}
+        <Style />
       </div>
     </React.Fragment>
   );
